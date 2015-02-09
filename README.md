@@ -8,4 +8,4 @@ this command-
     ---- "php composer.phar https://github.com/arif332/erpdistribution.git"
 3. Change the directory to erpdistribution and copy composer.phar file to erpdistribution.
 4. Download all library file using 
-    --- "php composer.phar install".
+    ---- "php composer.phar install".
