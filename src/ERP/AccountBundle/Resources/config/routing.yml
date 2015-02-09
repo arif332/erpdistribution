@@ -1,3 +1,7 @@
+erp_account_products:
+    resource: "@ERPAccountBundle/Resources/config/routing/products.yml"
+    prefix:   /products
+
 erp_account_homepage:
     path:     /hello/{name}
     defaults: { _controller: ERPAccountBundle:Default:index }

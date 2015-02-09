@@ -1,0 +1,30 @@
+products:
+    path:     /
+    defaults: { _controller: "ERPAccountBundle:Products:index" }
+
+products_show:
+    path:     /{id}/show
+    defaults: { _controller: "ERPAccountBundle:Products:show" }
+
+products_new:
+    path:     /new
+    defaults: { _controller: "ERPAccountBundle:Products:new" }
+
+products_create:
+    path:     /create
+    defaults: { _controller: "ERPAccountBundle:Products:create" }
+    requirements: { _method: post }
+
+products_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ERPAccountBundle:Products:edit" }
+
+products_update:
+    path:     /{id}/update
+    defaults: { _controller: "ERPAccountBundle:Products:update" }
+    requirements: { _method: post|put }
+
+products_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ERPAccountBundle:Products:delete" }
+    requirements: { _method: post|delete }
